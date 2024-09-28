@@ -1,0 +1,177 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-image: url('./img/fundo-principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh;
+  }
+  
+  .cabecalho {
+  
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  .cabecalho h1 {
+    margin: 5px  0 ;
+    padding-bottom: 5px;
+    color: #f1ecff;
+    font-size: 45px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+  
+  .personagens-slider {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  
+  }
+  
+  .listas-personagens {
+  
+    width: 350px;
+    height: 550px;
+    position: relative;
+  }
+  
+  .btn-seta {
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .btn-seta.btn-voltar {
+    transform: rotateY(180deg);
+  }
+  
+  .btn-seta:hover {
+    background-color: #8351fe;
+  
+  
+  }
+  .img-btn{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .cartao {
+    opacity: 0;
+    top: 10px;
+    height: 100%;
+    position: absolute;
+    padding: 10px;
+    box-shadow: oa(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .cartao.selecionado {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .cartao .imagem-personagem {
+    width: 95%;
+    max-height: 280px;
+    position: absolute;
+    top: 65px;
+    left: 6px;
+  }
+  
+  .cartao .nome {
+    background-color: rgba(179, 177, 185, 0.7);
+ 
+    
+    padding: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  
+  }
+  .cartao .descricao {
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .cartao .descricao .titulo {
+    background-color: #333333;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .cartao .descricao .texto {
+    font-size: 12px;
+    padding: 10px;
+    text-align: justify;
+    max-height: 150px;
+    overflow-y: auto;
+  
+  }
+  .texto{
+    margin-top: 2px;
+   
+  }
+  .imagem-personagem{
+    height: 400px;
+    top: 2px;
+
+    
+  }
+  
+  .cartao.fundo-1 {
+    background: url('./img/fundo-1.jpg') no-repeat;
+ 
+  
+  
+  }
+  
+  .cartao.fundo-2 {
+    background: url('./img/fundo-2.jpg') no-repeat;
+  
+  
+  }
+  
+  .cartao.fundo-3 {
+    background: url('../img/fundo-3.jpg') no-repeat;
+  
+  
+  }
+  
+  .cartao.fundo-4 {
+    background: url('../img/fundo-4.jpg') no-repeat;
+  
+  
+  }
+  
+  .cartao.fundo-5 {
+    background: url('../img/fundo-5.jpg') no-repeat;
+  
+  
+  }
+  
+  .cartao.fundo-6 {
+    background: url('../img/fundo-6.jpg') no-repeat;}
+  
+  
+  
